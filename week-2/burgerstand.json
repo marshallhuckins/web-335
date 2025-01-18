@@ -1,0 +1,20 @@
+{
+  "customer": {
+    "_id": "C001",
+    "firstName": "John",
+    "lastName": "Doe",
+    "orders": ["B001", "B002"]
+  },
+  "burgers": [
+    {
+      "_id": "B001",
+      "burgerName": "Cheeseburger",
+      "price": 5.99
+    },
+    {
+      "_id": "B002",
+      "burgerName": "Veggie Burger",
+      "price": 6.49
+    }
+  ]
+}

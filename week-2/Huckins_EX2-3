@@ -1,0 +1,11 @@
+"""
+Author: Marshall Huckins
+Date: 01/18/25
+File Name: Huckins_EX2-3
+Description: This file demonstrates the use of both file header comments and normal level comments
+"""
+
+quote = "The only way to do great work is to love what you do."
+author = "Steve Jobs"
+
+print(f'"{quote}" - {author}')

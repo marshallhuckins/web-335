@@ -1,0 +1,62 @@
+{
+  "viewers": [
+      {
+          "_id": 1,
+          "firstName": "John",
+          "lastName": "Doe",
+          "watchedMovies": [
+              {
+                  "movieId": 101,
+                  "ratingId": 1001
+              },
+              {
+                  "movieId": 102,
+                  "ratingId": 1002
+              }
+          ]
+      },
+      {
+          "_id": 2,
+          "firstName": "Jane",
+          "lastName": "Smith",
+          "watchedMovies": [
+              {
+                  "movieId": 101,
+                  "ratingId": 1003
+              }
+          ]
+      }
+  ],
+  "movies": [
+      {
+          "_id": 101,
+          "movieName": "Inception",
+          "genre": "Sci-Fi"
+      },
+      {
+          "_id": 102,
+          "movieName": "The Dark Knight",
+          "genre": "Action"
+      }
+  ],
+  "ratings": [
+      {
+          "_id": 1001,
+          "ratingScore": 5,
+          "viewerId": 1,
+          "movieId": 101
+      },
+      {
+          "_id": 1002,
+          "ratingScore": 4,
+          "viewerId": 1,
+          "movieId": 102
+      },
+      {
+          "_id": 1003,
+          "ratingScore": 5,
+          "viewerId": 2,
+          "movieId": 101
+      }
+  ]
+}

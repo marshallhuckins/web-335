@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "_id": "U1001",
+      "firstName": "John",
+      "lastName": "Doe",
+      "devices": [
+        {
+          "_id": "D2001",
+          "deviceName": "iPhone 13",
+          "deviceType": "Smartphone",
+          "charger": {
+            "_id": "C3001",
+            "chargerType": "Lightning",
+            "voltage": 5
+          }
+        },
+        {
+          "_id": "D2002",
+          "deviceName": "Samsung Galaxy S22",
+          "deviceType": "Smartphone",
+          "charger": {
+            "_id": "C3002",
+            "chargerType": "USB-C",
+            "voltage": 9
+          }
+        }
+      ]
+    },
+    {
+      "_id": "U1002",
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "devices": [
+        {
+          "_id": "D2003",
+          "deviceName": "MacBook Pro",
+          "deviceType": "Laptop",
+          "charger": {
+            "_id": "C3003",
+            "chargerType": "MagSafe",
+            "voltage": 20
+          }
+        }
+      ]
+    }
+  ]
+}

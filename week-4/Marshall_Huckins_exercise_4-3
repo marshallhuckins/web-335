@@ -1,0 +1,19 @@
+// Query (a): Display all users
+print("Displaying all users:");
+db.users.find().pretty();
+
+// Query (b): Find user by email
+print("User with email jbach@me.com:");
+db.users.findOne({ email: "jbach@me.com" });
+
+// Query (c): Find user by last name Mozart
+print("User with last name Mozart:");
+db.users.findOne({ lastName: "Mozart" });
+
+// Query (d): Find user by first name Richard
+print("User with first name Richard:");
+db.users.findOne({ firstName: "Richard" });
+
+// Query (e): Find user by employee ID 1010
+print("User with employeeId 1010:");
+db.users.findOne({ employeeId: "1010" });
